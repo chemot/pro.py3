@@ -21,7 +21,7 @@ import requests,urllib,json
 #cl.log("Timeline Token : " + str(cl.tl.channelAccessToken))
 
 #Khusus Login Token
-nadya = LINE('Eu8Ce1uMHRfzR1zbrxJ7.Egq9cEqQnOnQf8YrIwoOTW.UkCXsSvyU3MIV8T6kiSvg8M9McWqLEKoB6T/r4vB29w=')
+nadya = LINE('EuwvzJ4S2qM5eS9ya6pd.mKZbV5HoQB+/lk9EZno5+q.3Uo3e2XPyRp3f2q6+nKDvNJrc14M5Ko2arDspCFXmcc=')
 nadya.log("Auth Token : " + str(nadya.authToken))
 nadya.log("Timeline Token : " + str(nadya.tl.channelAccessToken))
 
@@ -149,7 +149,7 @@ groupMessage ="""
 ║╠➣Getgroup image
 ║╠➣Urlgroup Image
 ╚═════════════"""
-tjia="u78643d09e42a36836a17cc918963a8b7"
+tjia="u9f09cfcb17d037e2936b751bd9d40ead"
 
 setMessage ="""
 ╔═════════════
@@ -239,22 +239,15 @@ helpMessage ="""
 ║╠➣Speed test
 ║╠➣Settings
 ╠══════════════
-║╠➣SPECIAL THANKS TO:
-║╠➣sᴜᴘᴘᴏʀᴛᴇᴅ ʙʏ:
-║╠➣тєαм ѕℓα¢ĸвσт
-║╠➣✍͡➴͜Ĝα₤αηĸ͜͡✫
-║╠➣✍͡➴͜Ardiy͜͡✫
-╚═════════════
-line.me/ti/p/~fuck.you__
-line.me/ti/p/~Ardiy102
+line.me/ti/p/~sepriche
 """
 
 oepoll = OEPoll(nadya)
 KAC=[nadya]
 mid = nadya.getProfile().mid
 Bots=[mid]
-Creator=["u78643d09e42a36836a17cc918963a8b7"]
-admin=["u78643d09e42a36836a17cc918963a8b7"]
+Creator=["u324cc1bf984ea9bffe2caf5eccd3b9fd"]
+admin=["u324cc1bf984ea9bffe2caf5eccd3b9fd"]
 
 contact = nadya.getProfile()
 backup1 = nadya.getProfile()
@@ -281,16 +274,16 @@ wait = {
     'copy':{},    
     'likeOn':{},
     'detectMention':False,
-    'detectMention2':True,
-    'detectMention3':False,
+    'detectMention2':False,
+    'detectMention3':True,
     'kickMention':False,  
     'sticker':False,  
     'timeline':True,
     "Timeline":True,
-    "comment":"Bot Auto Like ©By :✍͡➴͜Ĝα₤αηĸ͜͡✫\nContact Me :http://line.me/ti/p/~azhura07_",    
+    "comment":"Bot Auto Like ©By :Sepribot\nContact Me :http://line.me/ti/p/~sepriche",    
     "commentOn":True,
     "commentBlack":{},
-    "message":"Thx For Add Me (^_^)\nInvite Me To Your Group ヘ(^_^)ヘ",    
+    "message":"assalamualaikum\nsalken ya kk",    
     "blacklist":{},
     "wblacklist":False,
     "dblacklist":False,
